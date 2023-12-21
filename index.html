@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Surya</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c6374d55fe.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+
+<body id="Hello">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="head-type"></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certfication</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">It's me, Hi!</h2>
+                <p class="hero_desc">I am <span class="auto-type"></span></p>
+               
+            </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- about section-->
+    <section id="about" class="nofcs">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/profile-pic.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="stack" style="--stacks: 3;">
+                        <span style="--index: 0;">Surya Kiran</span>
+                        <span style="--index: 1;">Surya Kiran</span>
+                        <span style="--index: 2;">Surya Kiran</span>
+                      </div>
+                    <p> Hey There! I'm Surya, pursuing my Junior year of Bachelors in CSE at Manipal Institute of Technology with a keen interest in Technology! I have had previously interned at Jindal Steel and Power Ltd, Boston IT, and Khelgully Gaming Pvt Ltd. During my internships, I've developed experience in QlikSense BI, Python, Plotly, and data analysis and visualization, Java, C, C++, HTML, CSS, Linux, XAMPP, JavaFX, MS Excel, and MySQL.
+                        <br> <br>
+                        Feel free to connect with me if you'd like to know more about me better!
+                    </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Tech Stack</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('hire')">Why Should you hire me?</p>
+                    <p class="tab-links"onclick="opentab('resume')">Résumé</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                        <h5>Languages</h5>
+                        <div class="skills-list">
+                        <span>Java,</span>
+                        <span>C,</span>
+                        <span>Python</span>
+                        </div>
+                        <h5>Technologies</h5>
+                        <div class="skills-list">
+                        <span>Linux,</span>
+                        <span>JavaFX</span>
+                        </div>
+                        <h5>Other</h5>
+                        <div class="skills-list">
+                       <span>MySQL,</span>
+                       <span>Data Structures,</span>
+                       <span>Algorithms,</span>
+                       <span>Data Analytics,</span>
+                       <br>
+                       <span>Qlik Sense BI,</span>
+                       <span>TensorFlow,</span>
+                       <span>AI/ML,</span>
+                       <span>OOPs.</span>
+                        </div>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                   <ul>
+                    <h5>B.Tech - Computer Science and Engineering</h5>
+                    <div class="edu-his">
+                        <span>Manipal Institute of Technology</span> &nbsp; &nbsp; &nbsp; <span>October 2021 – present | Bengaluru, India</span> <br>
+                        <span>CGPA : 8.2</span>
+                          
+                    </div>
+                    <h5>Higher Secondary Certificate (HSC) - XII<sup>th</sup> Class </h5>
+                    <div class="edu-his">
+                        <span>FIITJEE</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>April 2019 – March 2021 | Visakhapatnam, India</span> <br>
+                        <span>Percentage : 93.8%</span>
+                        
+                    </div>
+                    <h5>Secondary School Certificate (SSC) - X<sup>th</sup> Class </h5>
+                    <div class="edu-his">
+                        <span>O.P.Jindal School</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <span>February 2007 – March 2019 | Raigarh, India</span>
+                        <br>
+                        <span>Percentage : 95.4%</span>
+                    </div>
+                    </ul> 
+                    </div>
+
+               <div class="tab-contents" id="hire">
+                <h5 class="overview"> Overview : </h5>
+                <ul>
+                    <li> <b>Data Analysis Excellence </b> at Jindal Steel & Power Ltd.: During my internship, I consistently achieved a remarkable 95%  accuracy rate in analyzing data from various SAP modules. This showcased not only my proficiency in data analysis but also my ability to navigate complex datasets and draw meaningful insights.</li>
+                    <li> <b>Interactive Dashboards Creation:</b> At Jindal Steel & Power Ltd., I demonstrated my creative side by designing interactive dashboards with filter panes and key performance indicators (KPIs). These dashboards facilitated seamless data exploration, providing a user-friendly interface for accessing and interpreting complex information.</li>
+                    <li> <b>Social Media Insights </b> at Boston IT Solutions India: During my internship at Boston IT Solutions India, I delved into the world of social media data analysis. Successfully extracting valuable insights, I showcased my adaptability and analytical skills in dealing with diverse data sources and translating them into actionable information.</li>
+                    <li> <b>Efficiency Boost</b>  at Khelgully: During my tenure at Khelgully, I took on the challenge of coordinating and collating resource requests among a user base exceeding 1 lakh. Collaborating with cross-functional teams, I streamlined communication processes and delivered sessions that increased team efficiency by an impressive 20%. This achievement highlighted my ability to lead and enhance team dynamics.</li>
+                    <li> <b>Problem-Solver</b> at Internships: Across my internships, I consistently applied my analytical and mathematical skills to diverse projects. From data analysis at Jindal Steel & Power Ltd. to social media insights at Boston IT Solutions India, I showcased adaptability and a problem-solving mindset, making valuable contributions to each project.</li>
+                </ul>
+                <h5 class="overview">Summary : </h5>
+                    These achievements collectively reflect my proficiency in data analysis, creativity in presenting information, adaptability to different domains, and leadership skills in enhancing team efficiency. Each experience has been a stepping stone in my professional journey, contributing to my growth as a versatile and accomplished individual in the realm of data and technology.
+                </div>
+
+            <div class="tab-contents" id="resume">
+                <h5>View my Resume on Drive by clicking this button below!</h5>
+                <a href="https://drive.google.com/file/d/1k5flnbzGJ_eRv0MGYAXhwN0AxM9tHKL1/view?usp=sharing" class="button-connect" target="_blank">Résumé!</a>
+            </div>
+
+                       
+                    <a href="https://www.linkedin.com/in/suryak15" class="button-connect" target="_blank">Connect with me!</a>
+                </div>
+
+            </div>
+            <div class="close-icon"></div>
+    </section>
+
+    <!-- services section-->
+    <section id="services" class="nofcs"> 
+        <h3 class="exp">Where I've worked!</h3>
+        <div class="timeline">
+
+            <div class="containerExp left-container">
+                <img src="images/comp1.png">
+                <div class="text-box">
+                    <h2>Jindal Steel and Power Ltd.</h2>
+                    <small>Jul 2023 - Jul 2023</small>
+                    <h6>Data Analyst Intern</h6>
+                    <ul>
+                        <li>Developed visually appealing dashboards using Qlik Sense BI dashboards, contributing to a 20% increase
+                            in user engagement.</li>
+                        <li>Presented Key performance indicators (KPIs) and Data trends in the reports and dashboards.</li>
+                        <li>Developed visualizations and KPI dashboards, enhancing accessibility to critical information by 15%.</li>
+                    </ul>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="containerExp right-container">
+                <img src="images/comp2.jpeg">
+                <div class="text-box">
+                    <h2>Boston IT Solutions</h2>
+                    <small>Jul 2023 - Jul 2023</small>
+                    <h6>Python Developer Intern</h6>
+                    <ul>
+                        <li>Contributed to a live demo project of a social media analytics dashboard for Boston IT Solutions with a
+                            team of 5 members.</li>
+                        <li>Demonstrated exceptional teamwork, fostering a 95% smooth collaboration throughout the project.</li>
+                        <li>Used Plotly and Python to analyze the data of recent trends following the LinkedIn platform. </li>
+                    </ul>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div>
+
+            <div class="containerExp left-container">
+                <img src="images/comp3.png">
+                <div class="text-box">
+                    <h2>Khelgully</h2>
+                    <small>Jan 2022 - Apr 2022</small>
+                    <ul>
+                        <li>
+                            Assisted in developing new strategies and processes for the nearly 10% improvement in the product. </li>
+                            <li>Coordinated and collated requests for the required resources across the business among 1 Lakh+ users.</li>
+                            <li>Worked with a team of 5 members to ensure a smooth experience among the stakeholders.
+                            </li> 
+                       
+                    </ul>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+            <!-- <div class="containerExp right-container">
+                <img src="images/comp4.png">
+                <div class="text-box">
+                    <h2>Yours next?</h2>
+                    <small>Timeline</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa suscipit qui aliquam ab quam cum minima dolor? Ipsa, distinctio nisi non quia debitis earum enim numquam iure dignissimos veniam?</p>
+                    <span class="right-container-arrow"></span>
+                </div>
+            </div> -->
+               
+        </div>
+    </section>
+
+    <!-- JavaScript for Exp -->
+    <script>
+         var lastScrollTop = 0;
+
+        window.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY;
+            var leftContainers = document.querySelectorAll('.containerExp.left-container');
+            var rightContainers = document.querySelectorAll('.containerExp.right-container');
+            var timelineLine = document.querySelector('.timeline::after');
+
+            leftContainers.forEach(function(container) {
+                var containerOffset = container.getBoundingClientRect().top;
+                var translateValue = Math.max(0, Math.min(1, (window.innerHeight - containerOffset) / window.innerHeight));
+                container.style.transform = 'translateY(' + (-30 * (1 - translateValue)) + 'px)';
+                container.style.opacity = translateValue;
+            });
+
+            rightContainers.forEach(function(container) {
+                var containerOffset = container.getBoundingClientRect().top;
+                var translateValue = Math.max(0, Math.min(1, (window.innerHeight - containerOffset) / window.innerHeight));
+                container.style.transform = 'translateY(' + (-30 * (1 - translateValue)) + 'px)';
+                container.style.opacity = translateValue;
+            });
+
+            // Adjust the height of the line based on scroll direction
+            if (timelineLine) {
+            // Adjust the height of the line based on scroll position
+            timelineLine.style.height = scrollPosition + 'px';
+        
+        }
+        });
+    </script>
+
+    <!-- Projects -->
+      <section id="portfolio" class="nofcs">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="worklist row ">
+                <div class="work col-lg-4 mt-4">
+                    <img src="images/atm_interface.png" alt="Card image">
+                    <div class="layer">
+                        <h4>ATM INTERFACE</h4>
+                        <p class="card-text" style="color: rgb(228, 242, 255);">A Mini Working of a Bank With Real Time User-Interface. In this mini project, I have tried to make a Real time JavaFX application which will interact with user and collect Login Details
+                        </p>
+                       <a href="https://github.com/SuryaK15/ATM_Interface" target="_blank"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work col-lg-4 mt-4">
+                    <img src="images/med_mang.png" alt="Card image">
+                    <div class="layer">
+                    <h4 class="card-title">MEDICINE MANAGEMENT</h4>
+                    <p class="card-text" style="color: rgb(228, 242, 255);">A mock website which replicates a Pharmaceutical website for managing the Orders for Defence Personel. This project was done as a part of DataBase Management project for college course.
+                    </p>
+                    <a href="https://suryak15.github.io/medicine-management/" target="_blank"> <i class="fa-solid fa-link"></i></a>
+                </div>
+                
+                </div>
+                <div class="work col-lg-4 mt-4">
+                    <img src="images/askout.png" alt="Card image">
+                    <div class="layer">
+                    <h4 class="card-title">CRUSH ASKOUT</h4>
+                            <p class="card-text" style="color: rgb(228, 242, 255);">Developed a website using purely HTML, CSS, JS with the help of which, you can ask your crush out!... (P.S. Ask her to click NO!) :)
+                            </p>
+                            <a href="https://suryak15.github.io/askout/" target="_blank"> <i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+                
+                </div>
+                <a href="https://github.com/SuryaK15" target="_blank" class="see-more">See more projects!</a>
+            </div>
+    </section>
+
+
+
+    
+    <!-- Certification section-->
+    <section id="certifications" class="nofcs">
+        <div class="container">
+            <h1 class="text-center">Certifications</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/BSKQXFAC3QCN" target="_blank" style="text-decoration: none;">
+                        <div class="card servicesText">
+                            <div class="card-body" id="google">
+                                <i class="fas servicesIcon fa-brands fa-google"></i>
+                                <h4 class="card-title mt-3">Google</h4>
+                                <p class="card-text mt-3">Course : Operating Systems and You: Becoming a Power User <br> <br>
+                                    Skills gained : 
+                                    Linux,
+                                    Powershell,
+                                    Linux File Systems,
+                                    Command-Line Interface.
+                                    
+                                </p>
+
+
+                            </div>
+                        </div>  
+                    </a>
+                   
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/5APPXGE8LFUC" target="_blank" style="text-decoration: none;">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-solid fa-building-columns"></i>
+                                <h4 class="card-title mt-3">University of Colorado</h4>
+                                <p class="card-text mt-3">Course : TCP/IP and Advanced Topics <br> <br>
+                                    Skills gained : 
+                                    Networking,
+                                    TCP/IP Model, 
+                                    OSI Model,  
+                                    IPv4/6. 
+                                    
+                                </p>
+                            </div>
+                        </div> 
+                    </a>
+                  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <a href="https://www.hackerrank.com/certificates/f0cd95abf957" target="_blank" style="text-decoration: none;">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-brands fa-hackerrank"></i>
+                                <h4 class="card-title mt-3">HackerRank</h4>
+                                <p class="card-text mt-3"> Title : Advanced SQL Proficiency <br> <br>
+                                    Skills gained : 
+                                    MySQL, 
+                                    Relational DataBases.
+                                </p>
+                            </div>
+                        </div>  
+                    </a>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section-->
+    <div id="contact" class="nofcs">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left" style="flex: 1;">
+                    <h1 class="sub-title" style="color: rgb(9, 135, 237);">Contact Me</h1>
+                    <p style="color: rgb(9, 135, 237);"><i class="fa-regular fa-paper-plane"></i> reachout.suryakiran@gmail.com</p>
+                    <p style="color: rgb(9, 135, 237);"><i class="fa-solid fa-phone"></i>7898091545</p>
+                    <div class="social-icons">
+                        <a href="https://www.github.com/SuryaK15" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/suryak15" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/suryaa.kiran/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/resume_surya_kiran.pdf" download class="see-more btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right" style="flex: 1;">
+    
+                    <!-- <form action="https://api.sheetmonkey.io/form/hAngYtwycAHqkitMRaxyjA" method="post"> -->
+                        <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="see-more btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nofcs copyright">
+        <p id="copyright"> Copyright <i class="fa-regular fa-copyright"></i> Surya. Made with <i class="fa-solid fa-heart"></i> by Surya</p>
+    </div>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Surya","a Developer", "a Problem Solver", "an Aspiring Software Developer", "a Tester","Batman (...maybe? 😛)"],
+            typeSpeed: 150,
+            backSpeed: 150, 
+            loop: true
+        })
+
+        var typed = new Typed(".head-type", {
+            strings: ["Welcome to Surya's Portfolio"],
+            typeSpeed: 100,
+            backSpeed: 100, 
+            loop: true
+        })
+
+        // About Tab JS :
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzlVwZzUYK12t3kAI5b1UVvSX1EAfOcIvTLHcnevkU9HzS56ysO_4_Q1rymJ12k5Qjn/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+
+</html>
